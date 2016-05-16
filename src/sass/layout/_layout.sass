@@ -1,0 +1,126 @@
+.main-header, .footer
+  padding: 20px 0
+
+
+
+// =======================================
+//              Container
+// =======================================
+.container
+  max-width: 1280px
+  margin: 0 auto
+/*========================================
+
+
+
+
+// =======================================
+//              Content
+// =======================================
+.content
+  padding: 25px
+
+  +susy-breakpoint($bkp-md)
+    padding: 15px
+/*========================================
+
+
+
+
+// =======================================
+//              Wide
+// =======================================
+.wide
+  width: 100%
+  background-color: darkslategrey
+/*=======================================
+
+
+// =======================================
+//              Headers
+// =======================================
+.headers, .footers
+  background-color: slategray
+/*=======================================
+
+
+
+
+// =======================================
+//              Main
+// =======================================
+main
+  background: whitesmoke
+//========================================
+
+
+
+
+
+//========================================
+//    flex-wrapper
+//=======================================
+
+/* ----- XS -----
+.flex-wrapper
+  display: flex
+  flex-direction: column
+
+  .content
+    background-color: whitesmoke
+
+  aside
+    background-color: grey
+
+
+/* ----- MD -----
++susy-breakpoint($bkp-md)
+  .flex-wrapper
+    display: flex
+    flex-direction: row
+
+    .flex-main
+      flex-basis: 60%
+      flex-grow: 1
+      //flex-shrink: 0
+
+    .flex-side
+      flex-basis: 20%
+      //max-width: 250px
+      flex-grow: 0
+      background-color: darkgreen
+
+
+/*----- LG -----
++susy-breakpoint($bkp-lg)
+  .flex-wrapper
+
+    .flex-main
+      flex-basis: 58%
+
+    .flex-side
+      flex-basis: 21%
+      //min-width: 350px
+
+/*=========================================
+
+
+
+
+/*========================================
+/*    eq.js behaviours
+/*========================================
+.eq
+  // 480
+  +eq('small')
+    border: 3px solid fuchsia
+
+  // 600
+  +eq('medium')
+    border: 3px solid darkolivegreen
+
+  // 1280
+  +eq('large')
+    border: 3px solid darkorange
+
+/*=======================================

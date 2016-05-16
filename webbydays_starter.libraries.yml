@@ -1,0 +1,26 @@
+global-css:
+  css:
+    theme:
+      #development
+      build/css/style.css: {}
+
+      #production
+      # assets/css/style.css: {}
+
+global-js:
+  js:
+    #development
+    build/js/main.js: {}
+
+    #production
+    #assets/js/main.js: {}
+#  dependencies:
+#  - core/jquery
+
+bower:
+  js:
+    src/bower_components/eq.js/dist/eq.min.js: {}
+
+material:
+  css:
+    src/bower_components/angular-material/angular-material.min.css: {}
